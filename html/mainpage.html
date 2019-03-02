@@ -1,0 +1,83 @@
+<html>
+<head>
+<style>
+.dropbtn {
+    background-color: white;
+    color: skyblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    text-align:center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    text-align:center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+form {
+    width: 300px;
+    margin-top: 180px;
+	
+}
+button {
+margin-right:auto;
+text-align:center;	
+}
+
+body  {
+          background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/Eug_QjmOeijhmcjnu/digital-cloud-computing-concept_vkapxc__l__F0014.png");
+      background-size: cover;
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+<div>
+<form action="" method="POST" style="text-align:center;">
+	<div class="dropdown" style="text-align:center;">
+ 		 <button class="dropbtn">ADMIN</button>
+ 		 <div class="dropdown-content">
+    			<a href="http://192.168.122.227/adminside.html">ADD STORAGE</a>
+    			<a href="http://192.168.122.227/deletestorage.html">DELETE STORAGE</a>
+ 		        <a href="http://192.168.43.142/cgi-bin/virtuallist.py">VIRTUAL LIST</a>
+			<a href="http://192.168.122.227/targetside.html">ADD BLOCKSTORAGE </a>
+
+		 </div>
+	</div>
+<div class="dropdown" style="text-align:center;">
+
+
+                 <button class="dropbtn" style="text-align:center;">CLIENT</button>
+                 <div class="dropdown-content">
+                        <a href="http://192.168.43.142/home.html">SERVICES</a>
+                        
+                 </div>
+        </div>
+
+ 
+</form>
+</div>
+</body>
+</html>

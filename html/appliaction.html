@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="slide.css">
+
+</head>
+<body>
+
+<h2 style="text-align:center;color:blue;">Applications</h2>
+
+<div class="container">
+<div class="slideshow-container">
+<div style="text-align:center;width:100%;foat:left;">
+<p>
+Cloud application servers typically are located in a remote data center operated by a third-party cloud services infrastructure provider.
+</p>
+
+</div>
+<center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="https://cdn4.iconfinder.com/data/icons/SIGMA/education_icons/png/400/calculator.png" style="width:20%;">
+  <div class="text">Calculator</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="http://icons.iconarchive.com/icons/whyred/vlc-loveable-cone/512/cone-square-icon.png" style="width:20%">
+  <div class="text">VLC</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="http://icons.iconarchive.com/icons/hopstarter/sleek-xp-software/256/Notepad++-icon.png" style="width:20%">
+  <div class="text">Text Editor</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="http://www.allsensor.ru/forum/uploads/attachment/2013-11/1383317774_lens256.png" style="width:20%">
+  <div class="text">Camera</div>
+</div>
+</center>
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	<div>
+
+	
+		<h3 style="text-align:left;color:blue;">Applications</h3>
+		<p>
+		<h4> Calculator</h4>
+		
+The Cloud Calculator is an IT Toolbox. The primary purpose is to educate you on the uses, research and tools of the cloud and related infrastructure components.
+Here you will find many technology calculators that span from build versus buy tools to calculators that determine how much storage will be consumed for backups based on your retention 
+policies. We also have developed an extensive cloud computing resource library, offering a wealth of knowledge on a range of IT infrastructure topics.</p>
+
+		<p>
+		<h4>VLC Media Player</h4>
+		
+VLC supports all audio and video formats and all file formats supported by libavcodec and libavformat. This means that VLC can play back H.264 or MPEG-4 video as well
+ as support FLV or MXF file formats "out of the box" using FFmpeg's libraries. Alternatively, VLC has modules for codecs that are not based on FFmpeg's libraries. This feature is not unique to
+VLC, as any player using the FFmpeg libraries, including MPlayer and xine-lib-based players, should be able to play those formats without the need for external codecs.
+
+VLC Media Player screenshot
+VLC is one of the free software and open source DVD players that ignores DVD region coding on RPC-1 firmware drives, making 
+it a region-free player. However, it does not do the same on RPC-2 firmware drives. VLC media player has some filters that can distort, 
+rotate, split, deinterlace, mirror videos, create display walls, or add a logo overlay. It can also produce video output as ASCII art. 
+Using a FireWire connection from cable boxes to computers, VLC can stream live, unencrypted content to a monitor or HDTV.</p>
+	</div>
+	
+	<p>
+		<h4>Text Editor</h4>
+		
+A text editor lets you open a file as a text document, something that can be useful for a number of reasons:
+<ul>
+<li>Create a file from scratch using a specific programming language, like an HTML or CSS file for use on a website
+</li>
+<li>Edit or build files that end with the TXT, REG, XML, CSV, ASP, BAT, AU3, PHP, AHK, SVG, or JS file extension, among many others
+</li>
+<li>View the text version of a file that you don't know the format for
+</li>
+<li>Quickly remove formatting like bold, custom font types, URL hyperlinks, etc.
+</li>
+</ul>
+<p>
+		<h4> Camera</h4>
+		
+A camera is an optical instrument for recording or capturing images, which may be stored locally, transmitted to another location, or both. The images may be individual still photographs or sequences of images constituting videos or movies. The camera is a remote sensing device as it senses subjects without any contact . The word camera comes from camera obscura, which means "dark chamber" and is the Latin name of the original device for projecting an image of external reality onto a flat surface. The modern photographic camera evolved from the camera obscura. 
+The functioning of the camera is very similar to the functioning of the human eye. The first permanent photograph was made in 1826 by Joseph Nicéphore Niépce.</p>
+	
+
+</div>
+</body>
+</html> 

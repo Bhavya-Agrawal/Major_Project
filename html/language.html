@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="slide.css">
+</head>
+<body>
+
+<h2 style="text-align:center;color:blue;">languages</h2>
+<div style="text-align:center;width:100%;foat:left;">
+<p>
+A programming language is a formal language, which comprises a set of instructions used to produce various kinds of output. 
+Programming languages are used to create programs that implement specific algorithms.
+</p>
+</div>
+
+<div class="container">
+<div class="slideshow-container">
+<center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="http://www.finalhints.com/wp-content/uploads/2016/01/opengraph-icon-200x200.png" style="width:20%;">
+  <div class="text">Python</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://www.datacomes.com/it/wp-content/uploads/2018/03/0020_999_1373967199_perl_256.png" style="width:20%">
+  <div class="text">Perl</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://banner2.kisspng.com/20180418/blw/kisspng-computer-icons-ruby-programming-language-computer-ruby-5ad7544e52a215.5043757215240612623385.jpg" style="width:20%">
+  <div class="text">Ruby</div>
+</div>
+</center>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	<div>
+
+	
+		<h3 style="text-align:left;color:blue;">Python Programming Language</h3>
+		<p>
+		Python is an interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability,
+		notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales. In July 2018, Van Rossum stepped down as the leader in the language community after 30 years.[28][29]
+
+Python features a dynamic type system and automatic memory management. It supports multiple programming paradigms, including object-oriented, imperative, functional and procedural, and has a large and comprehensive standard library.[30]
+
+Python interpreters are available for many operating systems. CPython, the reference implementation of Python, is open source software and has a community-based development model, as do nearly all of Python's other implementations. Python and CPython are managed by the non-profit Python Software Foundation.
+		 </p>
+		<h3 style="text-align:left;color:blue;">Perl Programming Language</h3>
+		<p>
+		Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages, Perl 5 and Perl 6.
+
+Though Perl is not officially an acronym,[8] there are various backronyms in use, including "Practical Extraction and Reporting Language". Perl was originally developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier.[10] Since then, it has undergone many changes and revisions. Perl 6, which began as a redesign of Perl 5 in 2000, eventually evolved into a 
+separate language. Both languages continue to be developed independently by different development teams and liberally borrow ideas from one another.
+
+The Perl languages borrow features from other programming languages including C, shell script (sh), AWK, and sed[11]; Wall also alludes to Basic and Lisp in the introduction to Learning Perl (Schwartz & Christiansen) and so on. [12] They provide text processing facilities without the arbitrary data-length limits of many contemporary Unix commandline tools,[13] facilitating manipulation of text files. Perl 5 gained widespread popularity in the late 1990s as a CGI scripting language, in part due to its then unsurpassed regular expression and string parsing abilities.[
+		</p>
+		<h3 style="text-align:left;color:blue;">Ruby Programming Language</h3>
+		<p>
+		Ruby is a dynamic, interpreted, reflective, object-oriented, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro "Matz" Matsumoto in Japan.
+
+According to the creator, Ruby was influenced by Perl, Smalltalk, Eiffel, Ada, and Lisp.[12] It supports multiple programming paradigms, 
+including functional, object-oriented, and imperative. It also has a dynamic type system and automatic memory management
+		</p>
+		
+	</div>
+
+</div>
+</body>
+</html> 

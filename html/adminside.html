@@ -1,0 +1,24 @@
+<html>
+<head>
+<center><h1>Admin Side</h1></center>
+</head>
+<body bgcolor="skyblue">
+<center>
+<form action="http://192.168.124.1/cgi-bin/adminsideobject.py" mehtod="POST">
+Enter Disk Name<input type="text" name="diskname" placeholder="Enter Disk Name"></br></br>
+
+Enter Volume Group Name<input type="text" name="vgname" placeholder="Enter Volume Group Name"></br></br>
+
+Enter Logical Volume Size<input type="number" name="lvsize" placeholder="Enter Logical Volume Size"></br></br>  
+
+Enter Logical Volume Name<input type="text" name="lvname" value="pool"></br></br>
+			<input type="submit" name="submit">
+</form>
+<form action="http://192.168.124.1/cgi-bin/clientsideobject.py" method="POST">
+<input type="hidden" name="example" value="vgname">
+<input type="hidden" name="example1" value="lvname">
+</form>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,21 @@
+body {
+background-image:url('twinkling-stars.gif');
+color : cyan;
+
+}
+h1{
+text-align : center
+
+}
+
+legend{
+color:red
+}
+input {
+background-color:black;
+}
+
+fieldset {
+width:60%;
+
+}

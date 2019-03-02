@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="slide.css">
+</head>
+<body>
+
+<h2 style="text-align:center;color:blue;">INSTANCES</h2>
+
+<div class="container">
+<div class="slideshow-container">
+<div style="text-align:center;width:100%;foat:left;">
+<p>
+A cloud instance refers to a virtual server instance from a public or private cloud network. In cloud instance computing, single hardware is implemented
+ into software and run on top of multiple computers.
+</div>
+<center>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="https://orig00.deviantart.net/8c64/f/2012/328/b/2/windows_8_orb_by_flippinwindows-d5m1s8j.png" style="width:20%;">
+  <div class="text">Windows</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="http://legacy.redhat.com/pub/redhat/linux/6.1/en/os/sparc/misc/src/anaconda/pixmaps/splash.png" style="width:20%">
+  <div class="text">Redhat</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="https://vaelen.org/wp-content/uploads/2016/02/ubuntu-penguin.png" style="width:20%">
+  <div class="text">Ubuntu</div>
+</div>
+</center>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	<div>
+
+	
+		<h3 style="text-align:left;color:blue;">Instances and containers</h3>
+		<p>
+		Compute Engine instances support a declarative method for launching your applications using containers. When creating a VM or an instance template, 
+		you can provide a Docker image name and launch configuration. Compute Engine will take care of the rest including supplying an up-to-date Container-
+		Optimized OS image with
+		Docker installed and launching your container when the VM starts up. See Deploying Containers on VMs and Managed Instance Groups for more information.
+		</p>
+		<h3 style="text-align:left;color:blue;">Types of Instances :</h3>
+
+		<h3 style="text-align:left;color:blue;">Windows 10</h3>
+		<p>
+		Windows 10 is a series of personal computer operating systems produced by Microsoft as part of its Windows NT family of operating systems. It is the successor to Windows 8.1, and was released to manufacturing on July 15, 2015, and to retail on July 29, 2015.[8] Windows 10 receives new builds on an ongoing basis, which are available at no additional cost to users. Mainstream builds of Windows 10 are labelled version YYMM with YY representing the year and MM representing the month of release. For example, the latest mainstream build of Windows 10 is Version 1809. There are additional test builds of Windows 10 available to Windows Insiders. Devices in enterprise environments can receive these updates at a slower pace, or use long-term support milestones that only receive 
+		critical updates, such as security patches, over their ten-year lifespan of extended support.
+
+One of Windows 10's most notable features is support for universal apps, an expansion of the Metro-style apps first introduced in Windows 8. Universal apps can be designed to run across multiple Microsoft product families with nearly identical code‍—‌including PCs, tablets, smartphones, embedded systems, Xbox One, Surface Hub and Mixed Reality. The Windows user interface was revised to handle transitions between a mouse-oriented interface and a touchscreen-optimized interface based on available input devices‍—‌particularly on 2-in-1 PCs, both interfaces include an updated Start menu which incorporates elements of Windows 7's traditional Start menu with the tiles of Windows 8. Windows 10 also introduced the Microsoft Edge web browser, a virtual desktop system, a window and desktop management feature called Task View, support for fingerprint and face recognition login, new security features for enterprise environments, and DirectX 12
+		</p>
+		<h3 style="text-align:left;color:blue;">RedHat</h3>
+		<p>
+		RHEL is based on free, open source code. Although Red Hat makes its source code available for download, verbatim copying of the distribution is forbidden.
+
+The RHEL operating system (OS) supports diverse workloads in physical, virtualized and cloud environments. RHEL editions are available for servers, mainframe, SAP applications, desktops and OpenStack. 
+
+The RHEL 6.5 update, based on Linux kernel version 2.6.32-431, provides Precision Time Protocol (PTP) support, centralized certificate administration and security updates, large-scale resource management, broader support for solid-state storage devices and extended subscription
+ management services. RHEL 7, which as this writing is still in beta, will have multiple file systems, supporting EXT4, XFS and btrfs in addition to EXT2
+		</p>
+		<h3 style="text-align:left;color:blue;">Ubuntu</h3>
+		<p>
+		Ubuntu is built on Debian's architecture and infrastructure, and comprises Linux server, desktop and discontinued phone and tablet operating system versions.
+		Ubuntu releases updated versions predictably every six months,and each release receives free support for nine months (eighteen months prior to 13.04)
+		with security fixes, high-impact bug fixes and conservative, substantially beneficial low-risk bug fixes. The first release was in October 2004.<br>
+		Ubuntu's goal is to be secure "out-of-the box". By default, the user's programs run with low privileges and cannot corrupt the operating system or other users' files. For increased security, the sudo tool is used to assign temporary privileges for performing administrative tasks, which allows the root account to remain locked and helps prevent inexperienced users from inadvertently making catastrophic system changes or opening security holes.[51] PolicyKit is also being widely implemented into the desktop. Most network ports are closed by default to prevent hacking.[52] A built-in firewall allows end-users who install network servers to control access. A GUI (GUI for Uncomplicated Firewall) is available to configure it.[53] Ubuntu compiles its packages using GCC features such as PIE and buffer overflow protection to harden its software.[54] These extra features greatly increase security at the performance expense of 1% in 32-bit and 0.01% in 64-bit.[55]
+
+Ubuntu also supports full disk encryption[56] as well as encryption of the home and Private directories.
+		
+		</p>
+	</div>
+
+</div>
+</body>
+</html> 

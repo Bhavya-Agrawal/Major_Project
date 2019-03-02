@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>PAGE 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+    background-color: white;
+    color: skyblue;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+<style>
+body {
+      background-image: url("https://i.pinimg.com/originals/19/57/a4/1957a42f33fa8b5c543527213f580c3c.jpg");
+      background-size: 100% 110%;
+}
+</style>
+</head>
+<body>
+<div align="left">
+<h1><a style="color:salmon;font-size:150%">CHOOSE YOUR CHOICE</a></h1>
+<form action="" method="POST">
+	<div class="dropdown">
+ 		 <button class="dropbtn">INSTANCE</button>
+ 		 <div class="dropdown-content">
+    			<a href="http://192.168.122.1/page2_1.html">LAUNCH</a>
+    			<a href="http://192.168.122.1/cgi-bin/virtuallist.py">RUNNING</a>
+ 		 </div>
+	</div> 
+	</br>
+	</br>
+	</br>
+	</br>
+        </br>
+         <div class="dropdown">
+                 <button class="dropbtn">CONTAINER</button>
+                 <div class="dropdown-content">
+                        <a href="http://192.168.43.142/cgi-bin/dockerimagelist.py">LAUNCH</a>
+                        <a href="http://192.168.43.142/paas1.html">PAAS</a>
+                 </div>
+        </div>
+	</br>
+	</br>
+        </br>
+	</br>
+        </br>	
+	 <div class="dropdown">
+                 <button class="dropbtn">STORAGES</button>
+		<div class="dropdown-content">
+		<a href="http://192.168.122.227/mainstoragepage.html">OBJECT STORAGE</a>
+		<a href="http://192.168.122.227/initiator.sh.tar.gz">BLOCK STORAGE</a>
+		</div>
+        </div>
+	</br>
+	</br>
+        </br>
+	</br>
+        </br>
+	 <div class="dropdown">
+                 <button class="dropbtn">SOFTWARE SERVICE</button>
+		<div class="dropdown-content">
+		<a href="http://192.168.43.142/newsaas.html">SERVICE</a>
+		</div>
+	</div>
+</form>
+</div>
+</body>
+</html>
